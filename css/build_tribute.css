@@ -1,0 +1,422 @@
+* {
+    box-sizing: border-box;
+}
+main {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+h1 { 
+    font-size: 150%;
+}
+h1,h2,h3 { 
+    text-align: center;
+    border: 1px solid #000000;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 23px;
+    font-size: 24px;
+    }
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+/*  text-transform: capitalize; */
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 2px;
+    }
+
+p {
+    font-family: 'Open Sans', sans-serif;
+  /*  font-family: 'Dancing Script', cursive; */
+    font-size: 20px;
+    line-height: 1.4;
+    padding-left:    5px;
+    padding-right:   5px;
+    }
+
+a {
+    color: black;
+    text-decoration: none; 
+}
+
+#logo-container {
+    margin-top: 25px;
+ }
+ #logo-list {
+     list-style-type: none;
+     margin-left: 0px;
+     margin-top: 5px;
+     margin-bottom: 5px;
+ }
+ .logo-li-item {
+     padding-bottom: .25em;
+/*   margin-top:  .25em; */
+     margin-bottom:  .0em;
+ }
+ #logo-image {
+     width: 35px;
+     margin-right: 5px;
+     border: 1px solid #d5d5d5;
+     aspect-ratio: 4/3;
+     float: left;
+ }
+ #logo-tagline {
+     color: #ffffff;
+     font-size: 1em;
+     font-family: Verdana, Arial, Helvetica, sans-serif;
+     font-style: italic;
+ }
+ 
+body {
+
+    margin: 0 auto;
+    background-color:   #000000;
+}
+.border-radius {
+    border-radius: 50%;
+}
+
+#logo-favicon {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    width:  100px;
+    margin-right: 2.5px;
+    border: 1px solid #ffffff;
+    float: left;
+}
+
+#logo-company-name {
+    color: #ffffff;
+    padding: 5px;
+    margin-right: 2.5px;
+    margin-bottom: 0px;
+}
+
+#page {
+    max-width: 600px;
+    margin: 10px auto;
+    background-color: #000000;
+    color: #ffffff;
+
+    display: none;
+}
+#tribute-display {
+    margin: 0 auto;
+}
+#page-1 {
+    max-width: 600px;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #ff0000;
+    box-shadow: 12px 12px 16px 0 rgba(256,0,0.24),0 17px 50px 0 rgba(256,0,0,0.19);
+}
+#page-2 {
+    max-width: 600px;
+    padding: 10px;
+    margin: 25px auto;
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #ff0000;
+    box-shadow: 12px 12px 16px 0 rgba(256,0,0.24),0 17px 50px 0 rgba(256,0,0,0.19);
+}
+#page-3 {
+    max-width: 600px;
+    padding: 10px;
+    margin: 25px auto;
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #ff0000;
+    box-shadow: 12px 12px 16px 0 rgba(256,0,0.24),0 17px 50px 0 rgba(256,0,0,0.19);
+}
+ol,ul {
+    list-style: none;
+    margin-left: 5px;
+}
+.paragraph-hdr-1 {
+    font-size: 1.125em;
+    font-weight: bold;
+    text-align: center;
+    line-height: .5;
+}
+.paragraph-hdr-2 {
+    font-size: 1.125em;
+    font-weight: bold;
+    text-align: center;
+}
+.paragraph-hdr-3 {
+    font-size: 1.125em;
+    font-weight: bold;
+}
+#order-of-service {
+    padding: 15px;
+    border: 1px solid #000000;
+}
+#order-service-items {
+    margin: 15px auto;
+    overflow: hidden;
+    border: 1px solid #000000;
+}
+#order-service-left {
+    float: left;
+}
+#order-service-right {
+    float: right;
+}
+
+#bearers-container {
+    margin: 15px auto;
+    overflow: hidden;
+    border: 1px solid #000000;
+}
+#pall-bearers {
+    margin: 20px;
+    background-color: #ffffff;
+    float: left;
+}
+#flower-bearers {
+    margin: 20px;
+    background-color: #ffffff;
+    float: right;
+}
+.accent-color {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 1.125em;
+    font-weight: bold;
+}
+
+ol {
+    padding-left: 0px;
+    list-style: none;
+}
+
+li {
+    padding-bottom: .25em;
+    margin-bottom:  .30em;
+}
+
+li ol li:hover {
+    cursor: pointer;
+}
+
+#page-1-title-1 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+#page-1-title-1-text
+{
+    color: #000000;
+    text-align: center;
+    font-size: 1.065em;
+    font-style: italic;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+
+#page-1-title-2 {
+    text-align: center;
+}
+
+#page-1-title-2-text
+{
+    background: #c2adeb;
+    font-size: 1.50em;
+    font-style: italic;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#page-2-title-1 {
+    text-align: center;
+}
+
+#page-2-title-1-text
+{
+    background: #c2adeb;
+    font-size: 1.50em;
+    font-style: italic;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#page-2-title-2 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+#page-2-title-2-text
+{
+    color: #000000;
+    text-align: center;
+    font-size: 1.125em;
+    font-style: italic;
+    border: 1px solid #000000;
+}
+
+.first-caption {
+    margin-top: 30px;
+}
+
+.bible-passage {
+    font-size: 1.20em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.bible-passage-content {
+    background-color: #770000;
+    color: #ffffff;
+    font-size: 1.15em;
+
+}
+
+.bible-verse {
+    color: #ffffff;
+    background-color: #770000;
+    font-style: italic;
+}
+
+.author {
+    background-color: #770000;
+    color: #ffffff;
+}
+
+.author-signature {
+    margin: 0 auto;
+    text-align: center;
+    clear: both;
+}
+.author-photo {
+    width: 85px;
+    height: 85px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    border: 1px solid #d5d5d5;
+}
+
+.quote-color {
+/*    font-weight: bold; */
+}
+#narrative {
+    margin: 5px;
+}
+
+footer {
+}
+
+#page-1-image
+ {
+    max-width:  100%;
+    background: #c2adeb;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    aspect-ratio: 3 / 4;
+    border-radius: 50%;
+    box-shadow: 12px 12px 16px 0 rgba(194,173,235,0.50),0 17px 50px 0 rgba(194,173,235,0.50);
+}
+
+
+#page-2-image
+ {
+    max-width:  100%;
+    background: #c2adeb;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    aspect-ratio: 3 / 4;
+    border-radius: 50%;
+    box-shadow: 12px 12px 16px 0 rgba(194,173,235,0.50),0 17px 50px 0 rgba(194,173,235,0.50);
+}
+
+#page-1-figcaption {
+    text-align: center;
+}
+
+#page-1-figcaption-text {
+    background: #c2adeb;
+    color: #000000;
+    font-size: 1.125em;
+    font-style: italic;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 1px solid #000000;
+}
+
+#page-2-figcaption {
+    text-align: center;
+}
+
+#page-2-figcaption-text {
+    background: #c2adeb;
+    color: #000000;
+    font-size: 1.125em;
+    font-style: italic;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 1px solid #000000;
+}
+
+.poem {
+    border: 1px solid #f5f5f5;
+    color: #a5a5a5;
+    padding-left:    5px;
+    padding-right:   5px;
+    margin: 5px;
+    font-style: italic;
+
+}
+.text-center {
+    text-align: center;
+}
+
+#copyright-1,
+#copyright-2,
+#email-contact-us,
+#company-name
+{
+    width:  225px;
+    margin: auto;
+    font-size: 12px;
+    font-weight: bold;
+    background: #000000;
+    color: #ffffff;
+    display: none;
+}
+#copyright-2 {
+    margin-bottom: 5px;
+}
+/*------------------------*/
+/*- Scott Family History -*/
+/*------------------------*/
+.author-comments {
+    font-size: 1.135em;
+    font-weight: bold;
+}
+
+.caption-color {
+background-color:   #454545;
+color:        #f5f5f5;
+text-align:   center;
+border: 1px solid #000000;
+}
+/*------------------------*/
+/*- Scott Family History -*/
+/*------------------------*/
+
+.first-p-header-top {
+    margin-top: 20px;
+}
+.p-header {
+
+}
